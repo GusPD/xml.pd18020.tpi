@@ -1,0 +1,36 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Jose Gustavo",
+				"apellido": "Pineda Delgado",
+				"direccion": "6a Avenida Sur sobre 10a calle oriente, San Salvador",
+				"telefono": "76270708",
+				"email": "pd18020@ues.edu.sv",
+				"website": "xml.pd18020.tpi",
+				"_id": "2",
+				"_fechaingreso": "1/11/2018"
+			},
+			{
+				"nombre": "Jose Gustavo",
+				"apellido": "Pineda Delgado",
+				"direccion": "6a Avenida Sur sobre 10a calle oriente, San Salvador",
+				"telefono": "76270708",
+				"email": "pd18020@ues.edu.sv",
+				"website": "xml.pd18020.tpi",
+				"dui": "059661324",
+				"isss": "01234",
+				"afp": "01234",
+				"_id": "3",
+				"_fechaingreso": "1/11/2018"
+			}
+		]
+	}
+}

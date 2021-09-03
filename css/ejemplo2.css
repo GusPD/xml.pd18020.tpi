@@ -1,0 +1,27 @@
+/* ejemplo2.css   PD18020  */
+pais {
+    background-color:blanchedalmond;
+    padding: 5%;
+}
+departamento {
+    background-color:orange; 
+    display:block;
+    padding: 3%;
+} 
+cabecera {
+    color:white; 
+    display:block;
+} 
+habitantes {
+    color:white; 
+    display:block;
+}
+altura {
+    color:white;
+    display:block;
+}
+pais[nombre]::before{content:attr(nombre)" ";color:maroon;font-family:'Times New Roman';font-weight: bold;font-size: 40px;}
+departamento[nombre]::before{content: "Departamento: "attr(nombre)" ";color:maroon;font-weight: bold;font-size: 20px}
+cabecera[c]::before{content:attr(c)": ";color:black;font-weight: bold;}
+habitantes[h]::before{content:attr(h)": ";color:black;font-weight: bold;}
+altura[a]::before{content:attr(a)": ";color:black;font-weight: bold;}

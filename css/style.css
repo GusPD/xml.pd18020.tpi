@@ -1,0 +1,41 @@
+body{
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.titulo {
+  text-align: left;
+  color: #3F2817;
+  font-size: 40px;
+  font-family:'Lucida Sans';
+}
+
+.subtitulo{
+  text-align: center;
+  font-size: 30px;
+  color:black;
+  font-family:'Times New Roman';
+}
+
+.indice{
+  color:white;
+  background-color:sienna;
+  font-size: 110%;
+  font-family: 'Lucida Sans';
+}
+
+.indice li{
+  list-style:upper-roman;
+  padding: 1.5%;
+}
+
+.indice ul li{
+  list-style:lower-roman;
+}
+
+.indice li a{
+  color: white;
+  text-decoration: none;
+}

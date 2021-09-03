@@ -1,0 +1,66 @@
+{
+	"pais": {
+		"caracteristicas": {
+			"monedas": {
+				"moneda": [
+					{
+						"signo": "$",
+						"codigo": "USD",
+						"_id": "1",
+						"_nombre": "Dólar estadounidense"
+					},
+					{
+						"signo": "₿",
+						"codigo": "BTC",
+						"_id": "2",
+						"_nombre": "Bitcoin"
+					},
+					{
+						"signo": "¢",
+						"codigo": "SVC",
+						"_id": "3",
+						"_nombre": "Colón salvadoreño"
+					}
+				]
+			},
+			"codigoTelefonicoArea": "+503",
+			"idiomas": {
+				"idioma": [
+					{
+						"_id": "1",
+						"_nombre": "oficial",
+						"__text": "Español"
+					},
+					{
+						"_id": "2",
+						"_nombre": "autoctono",
+						"__text": "Náhuatl"
+					},
+					{
+						"_id": "3",
+						"_nombre": "segundo idioma",
+						"__text": "Inglés Estados Unidos"
+					}
+				]
+			},
+			"areaTerritorial": "21.041 km2"
+		},
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Santa Tecla",
+				"habitantes": "843,500",
+				"altura": "493 MSNM",
+				"_id": "2",
+				"_nombre": "La Libertad"
+			}
+		],
+		"_nombre": "El Salvador"
+	}
+}

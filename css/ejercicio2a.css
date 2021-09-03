@@ -1,0 +1,89 @@
+/* ejercicio2a.css   PD18020  */
+pais {
+    background-color:blanchedalmond;
+    padding: 5%;
+}
+caracteristicas{
+    background-color:orange;
+    padding: 3%;  
+    display:block;
+}
+monedas {
+    background-color:orange;
+    padding: 2%;
+    display:block;
+}
+moneda{
+    background-color:orange;
+    padding-left: 4%;
+    display: block;
+}
+signo{
+    color:white;
+    display:inline;
+
+}
+codigo{
+    color:white;
+    display:inline;
+}
+codigoTelefonicoArea {
+    background-color:orange;
+    padding: 2%;
+    color: white; 
+    display:block;
+}
+idiomas {
+    background-color:orange;
+    padding-left: 2%; 
+    display:block;
+}
+idioma {
+    background-color:orange;
+    color:white;
+    padding-left: 4%; 
+    display:block;
+}
+areaTerritorial {
+    background-color:orange;
+    padding-left: 2%;
+    color: white;  
+    display:block;
+}
+organizacionTerritorial{
+    background-color:orange;
+    padding: 2%;  
+    display:block;
+}
+departamento {
+    background-color:orange; 
+    display:block;
+    padding: 2%;
+} 
+cabecera {
+    color:white;
+    display:block;
+} 
+habitantes {
+    color:white;
+    display:block;
+}
+altura {
+    color:white;
+    display:block;
+}
+pais[nombre]::before{content:attr(nombre)" ";color:maroon;font-family:'Times New Roman';font-weight: bold;font-size: 40px;}
+organizacionTerritorial[or]::before{content:attr(or)" ";color:red;font-weight: bold;font-size: 20px}
+departamento[nombre]::before{content: "Departamento: "attr(nombre)" ";color:black;font-weight: bold;}
+cabecera[c]::before{content:attr(c)": ";color:black;font-weight: bold;}
+habitantes[h]::before{content:attr(h)": ";color:black;font-weight: bold;}
+altura[a]::before{content:attr(a)": ";color:black;font-weight: bold;}
+caracteristicas[ca]::before{content:attr(ca)" ";color:red;font-weight: bold;font-size: 20px}
+codigoTelefonicoArea[co]::before{content:attr(co)": ";color:black;font-weight: bold;}
+areaTerritorial[ar]::before{content:attr(ar)": ";color:black;font-weight: bold;}
+monedas[mo]::before{content:attr(mo)": ";color:black;font-weight: bold;}
+moneda[nombre]::before{content:attr(id)"- Nombre: "attr(nombre)" ";color:white;font-weight: bold;}
+signo[s]::before{content:attr(s)": ";color:white;font-weight: bold;}
+codigo[cod]::before{content:attr(cod)": ";color:white;font-weight: bold;}
+idiomas[idio]::before{content:attr(idio)": ";color:black;font-weight: bold;}
+idioma[nombre]::before{content:attr(id)"- "attr(nombre)": ";color:white;font-weight: bold;}

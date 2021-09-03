@@ -1,0 +1,48 @@
+/* ejercicio1a.css   PD18020  */
+fichero {
+    background-color:blanchedalmond;
+    padding: 5%;
+}
+ficha {
+    background-color:orange; 
+    display:block;
+    padding: 3%;
+} 
+nombre {
+    color:white;
+    padding-left: 2%; 
+    display:block;
+} 
+apellido {
+    color:white; 
+    padding-left: 2%;  
+    display:block;
+}
+direccion {
+    color:white;
+    padding-left: 2%;  
+    display:block;
+}
+telefono {
+    color:white;
+    padding-left: 2%;  
+    display:block;
+}
+email {
+    color:white;
+    padding-left: 2%; 
+    display:block;
+}
+website {
+    color:white;
+    padding-left: 2%;  
+    display:block;
+}
+fichero[f]::before{content:attr(f);color:maroon;font-weight: bold; font-family:'Times New Roman';font-size:40px;}
+ficha[fechaingreso]::before{content: "Expediente:" attr(id)" Fecha ingreso: "attr(fechaingreso);color:black;font-weight: bold;}
+nombre[n]::before{content:attr(n)": ";color:black;font-weight: bold;text-decoration: none;}
+direccion[d]::before{content:attr(d)": ";color:black;font-weight: bold;text-decoration: none;}
+apellido[a]::before{content:attr(a)": ";color:black;font-weight: bold;text-decoration: none;}
+email[e]::before{content:attr(e)": ";color:black;font-weight: bold;text-decoration: none;}
+telefono[t]::before{content:attr(t)": ";color:black;font-weight: bold;text-decoration: none;}
+website[w]::before{content:attr(w)": ";color:black;font-weight: bold;text-decoration: none;};

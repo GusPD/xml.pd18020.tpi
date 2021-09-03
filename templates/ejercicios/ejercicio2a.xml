@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../css/ejercicio2a.css" ?>
+<!-- ejemplo2.xml  PD18020 -->
+<pais nombre="El Salvador">
+	<caracteristicas ca="Características">
+		<codigoTelefonicoArea co="Código de área">+503</codigoTelefonicoArea>
+		<areaTerritorial ar="Área territorial">21.041 km2</areaTerritorial>
+		<monedas mo="Monedas">
+			<moneda id="1" nombre="Dólar estadounidense">
+				<signo s="Signo">$</signo>
+				<codigo cod="Código">USD</codigo>
+			</moneda>
+			<moneda id="2" nombre="Bitcoin">
+				<signo s="Signo">₿</signo>
+				<codigo cod="Código">BTC</codigo>
+			</moneda>
+			<moneda id="3" nombre="Colón salvadoreño">
+				<signo s="Signo">¢</signo>
+				<codigo cod="Código">SVC</codigo>
+			</moneda>
+		</monedas>
+		<idiomas idio="Idiomas">
+			<idioma id="1" nombre="Idioma oficial">Español</idioma>
+			<idioma id="2" nombre="Idioma autoctono">Náhuatl</idioma>
+			<idioma id="3" nombre="Segundo idioma">Inglés Estados Unidos</idioma>
+		</idiomas>
+	</caracteristicas>
+	<organizacionTerritorial or="Organización Territorial">
+		<departamento id="1" nombre="San Salvador">
+			<cabecera c="Cabecera">San Salvador</cabecera>
+			<habitantes h="Habitantes">1,700,000</habitantes>
+			<altura a="Altura">545 MSNM</altura>
+		</departamento>
+		<departamento id="2" nombre="La Libertad">
+			<cabecera c="Cabecera">Santa Tecla</cabecera>
+			<habitantes h="Habitantes">843,500</habitantes>
+			<altura a="Altura">493 MSNM</altura>
+		</departamento>
+	</organizacionTerritorial>
+</pais>
